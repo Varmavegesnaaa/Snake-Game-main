@@ -5,7 +5,7 @@ import { outsideGrid } from './grid.js'
 let lastRenderTime = 0
 let gameOver = false
 const gameBoard = document.getElementById('game-board')
-
+alert("Press left/right/up/down key to start game")
 function main(currentTime) {
   if (gameOver) {
     if (confirm('You lost. Press ok to restart.')) { //okay-true
